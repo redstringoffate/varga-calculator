@@ -1,17 +1,5 @@
 # utils/colors.py
 
-"""
-Color dictionaries for Varga Excel rendering.
-
-- Element colors     (Main row background)
-- Planet colors      (Nakshatra row background via Nakshatra Lord)
-- Purushartha colors (Purushartha row font color only)
-
-Colors are hex strings WITHOUT the '#'.
-Excel (openpyxl) uses hex strings, e.g. "FF0000".
-"""
-
-
 # ----------------------------------------------------
 # HEX → RGB 변환기 (필수)
 # ----------------------------------------------------
@@ -84,3 +72,4 @@ PURUSHARTHA_COLOR = {
     "Kama":   "CC0033",   # Deep red
     "Moksha": "003399",   # Deep blue
 }
+
