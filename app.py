@@ -8,6 +8,8 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Font
 from openpyxl.utils.dataframe import dataframe_to_rows
+from utils.nakshatra_purushartha import NAKSHATRA_PURUSHARTHA
+
 
 # ----------------------------------------------------------
 # Utils
@@ -274,4 +276,5 @@ if st.button("🔮 Varga 계산하기"):
                            data=f,
                            file_name="varga_result.xlsx",
                            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+
 
