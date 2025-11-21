@@ -22,9 +22,9 @@ NAKSHATRA_PURUSHARTHA = {
     "Anuradha":     "Dharma",
     "Jyeshtha":     "Artha",
     "Mula":         "Kama",
-    "Purva Ashadha": "Moksha",
+    "Purva Ashada": "Moksha",
 
-    "Uttara Ashadha": "Dharma",
+    "Uttara Ashada": "Dharma",
     "Shravana":     "Artha",
     "Dhanishta":    "Kama",
     "Shatabhisha":  "Moksha",
@@ -33,3 +33,4 @@ NAKSHATRA_PURUSHARTHA = {
     "Uttara Bhadrapada": "Artha",
     "Revati":   "Kama",
 }
+
